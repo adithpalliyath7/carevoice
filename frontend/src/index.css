@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+:root { --navy: #0A2540; --blue: #015BBB; }
+body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+
+/* Senior / Easy mode: large text, high contrast, single column, huge targets */
+.senior-mode { font-size: 125%; }
+.senior-mode button, .senior-mode input, .senior-mode select, .senior-mode a {
+  min-height: 56px; font-size: 1.1rem;
+}
+.senior-mode .card { border-width: 2px; border-color: #0A2540; }
+.senior-mode main { max-width: 720px; }

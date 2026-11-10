@@ -1,0 +1,17 @@
+# env / secrets — never commit
+.env
+.env.*
+!backend/.env.example
+!frontend/.env.example
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.log
+.DS_Store
+
+storage/
